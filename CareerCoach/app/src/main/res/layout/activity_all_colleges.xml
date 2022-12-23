@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".allCollegesList.AllCollegesActivity"
+    android:orientation="vertical"
+    android:background="@color/Personal">
+
+    <androidx.appcompat.widget.SearchView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/searchView"
+        android:background="@color/Personal_dark"
+        app:iconifiedByDefault="false"
+        app:queryHint="Search"
+        android:gravity="center"
+        android:layout_gravity="center"
+        app:searchIcon="@null"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/recyclerViewAllColleges"/>
+
+</LinearLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/school"
+    app:startDestination="@id/registrationSchoolFragment">
+
+    <fragment
+        android:id="@+id/registrationSchoolFragment"
+        android:name="com.example.storageassignment.school.RegistrationSchoolFragment"
+        android:label="fragment_registration_school"
+        tools:layout="@layout/fragment_registration_school" >
+        <action
+            android:id="@+id/action_registrationSchoolFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.realmstorage.school.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.realmstorage.school.homeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_aboutUsFragment"
+            app:destination="@id/aboutUsFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_schoolInformationFragment"
+            app:destination="@id/schoolInformationFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_facultyFragment"
+            app:destination="@id/facultyFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_galleryFragment"
+            app:destination="@id/galleryFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/aboutUsFragment"
+        android:name="com.example.realmstorage.school.AboutUsFragment"
+        android:label="fragment_about_us"
+        tools:layout="@layout/fragment_about_us" />
+    <fragment
+        android:id="@+id/facultyFragment"
+        android:name="com.example.realmstorage.school.FacultyFragment"
+        android:label="fragment_faculty"
+        tools:layout="@layout/fragment_faculty" />
+    <fragment
+        android:id="@+id/schoolInformationFragment"
+        android:name="com.example.realmstorage.school.SchoolInformationFragment"
+        android:label="fragment_school_information"
+        tools:layout="@layout/fragment_school_information" />
+    <fragment
+        android:id="@+id/galleryFragment"
+        android:name="com.example.realmstorage.school.GalleryFragment"
+        android:label="fragment_gallery"
+        tools:layout="@layout/fragment_gallery" />
+</navigation>

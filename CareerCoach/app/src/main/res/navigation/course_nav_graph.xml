@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/courseListFragment">
+
+    <fragment
+        android:id="@+id/courseListFragment"
+        android:name="com.example.careercoach.different_courses.CourseListFragment"
+        android:label="fragment_course_list"
+        tools:layout="@layout/fragment_course_list" >
+        <action
+            android:id="@+id/action_courseListFragment_to_PG"
+            app:destination="@id/PG" />
+        <action
+            android:id="@+id/action_courseListFragment_to_PG2"
+            app:destination="@id/PG" />
+        <action
+            android:id="@+id/action_courseListFragment_to_PG3"
+            app:destination="@id/PG" />
+        <action
+            android:id="@+id/action_courseListFragment_to_law"
+            app:destination="@id/law" />
+        <action
+            android:id="@+id/action_courseListFragment_to_UG"
+            app:destination="@id/UG" />
+        <action
+            android:id="@+id/action_courseListFragment_to_PG4"
+            app:destination="@id/PG" />
+        <action
+            android:id="@+id/action_courseListFragment_to_diploma"
+            app:destination="@id/diploma" />
+        <action
+            android:id="@+id/action_courseListFragment_to_engineering"
+            app:destination="@id/engineering" />
+        <action
+            android:id="@+id/action_courseListFragment_to_management"
+            app:destination="@id/management" />
+        <action
+            android:id="@+id/action_courseListFragment_to_medical"
+            app:destination="@id/medical" />
+        <action
+            android:id="@+id/action_courseListFragment_to_phD"
+            app:destination="@id/phD" />
+    </fragment>
+    <fragment
+        android:id="@+id/UG"
+        android:name="com.example.careercoach.different_courses.courses.UG"
+        android:label="fragment_u_g"
+        tools:layout="@layout/fragment_u_g" />
+    <fragment
+        android:id="@+id/PG"
+        android:name="com.example.careercoach.different_courses.courses.PG"
+        android:label="fragment_p_g"
+        tools:layout="@layout/fragment_p_g" />
+    <fragment
+        android:id="@+id/diploma"
+        android:name="com.example.careercoach.different_courses.courses.Diploma"
+        android:label="fragment_diploma"
+        tools:layout="@layout/fragment_diploma" />
+    <fragment
+        android:id="@+id/phD"
+        android:name="com.example.careercoach.different_courses.courses.PhD"
+        android:label="fragment_ph_d"
+        tools:layout="@layout/fragment_ph_d" />
+    <fragment
+        android:id="@+id/engineering"
+        android:name="com.example.careercoach.different_courses.courses.Engineering"
+        android:label="fragment_engineering"
+        tools:layout="@layout/fragment_engineering" />
+    <fragment
+        android:id="@+id/medical"
+        android:name="com.example.careercoach.different_courses.courses.Medical"
+        android:label="fragment_medical"
+        tools:layout="@layout/fragment_medical" />
+    <fragment
+        android:id="@+id/management"
+        android:name="com.example.careercoach.different_courses.courses.Management"
+        android:label="fragment_management"
+        tools:layout="@layout/fragment_management" />
+    <fragment
+        android:id="@+id/law"
+        android:name="com.example.careercoach.different_courses.courses.Law"
+        android:label="fragment_law"
+        tools:layout="@layout/fragment_law" />
+</navigation>

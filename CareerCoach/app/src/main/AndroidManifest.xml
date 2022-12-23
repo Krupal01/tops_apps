@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.careercoach">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_latest_app_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_latest_app_icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CareerCoach">
+        <activity android:name=".jobs.JobsActivity" />
+        <activity android:name=".PolicyActivity" />
+        <activity android:name=".news_feed.NewsFeedActivity" />
+        <activity android:name=".login_register_forgetPassword.ForgetPasswordActivity" />
+        <activity android:name=".allCollegesList.AllCollegesActivity" />
+        <activity android:name=".different_colleges.CollegeListActivity" />
+        <activity android:name=".different_careers.CareerHostActivity" />
+        <activity android:name=".different_courses.CourseHostActivity" />
+        <activity android:name=".afterWhat.After10HostActivity" />
+        <activity android:name=".afterWhat.After12HostActivity" />
+        <activity android:name=".settings.SettingsActivity" />
+        <activity android:name=".AboutUsActivity" />
+        <activity android:name=".different_exams.ExamHostActivity" />
+        <activity
+            android:name=".login_register_forgetPassword.RegistrationActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".login_register_forgetPassword.LoginActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+
+
+
+        </activity>
+        <activity android:name=".DashBoardActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

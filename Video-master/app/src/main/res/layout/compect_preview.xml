@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:backgroundTint="@color/statusBar"
+    android:id="@+id/previewTileLayout"
+    android:layout_width="match_parent"
+    android:layout_marginStart="6dp"
+    android:layout_marginEnd="6dp"
+    android:layout_height="wrap_content">
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="6dp"
+        android:id="@+id/previewMaterialCard"
+        android:layout_marginBottom="6dp"
+        android:elevation="8dp"
+        app:cardCornerRadius="6dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintVertical_bias="0.44">
+
+        <ImageView
+            android:id="@+id/thumbnail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:background="@drawable/preview_thumbnail_bg"
+            tools:ignore="MissingConstraints"
+            android:contentDescription="@string/videoThumbnail" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_margin="3dp"
+            android:background="@drawable/duration_size_bg">
+
+            <TextView
+                android:id="@+id/sizePreview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/not_sans"
+                android:paddingStart="5dp"
+                android:paddingTop="1dp"
+                android:paddingEnd="4dp"
+                android:text="@string/dummyVideoSize50mb"
+                android:textColor="@color/white"
+                android:textSize="9sp"
+                android:textStyle="bold"
+                tools:ignore="SmallSp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:background="@drawable/duration_size_bg">
+
+            <TextView
+                android:id="@+id/durationV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/not_sans"
+                android:gravity="center"
+                android:paddingStart="4dp"
+                android:paddingTop="1dp"
+                android:paddingEnd="5dp"
+                android:text="@string/dummyDuration10_12_01"
+                android:textColor="@color/white"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="bottom"
+            android:background="@drawable/controller_bg">
+
+            <TextView
+                android:id="@+id/titleV"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginEnd="28dp"
+                android:layout_marginStart="3dp"
+                android:layout_marginBottom="4dp"
+                android:layout_gravity="bottom"
+                android:fontFamily="@font/not_sans"
+                android:gravity="left"
+                android:maxLines="2"
+                android:ellipsize="end"
+                android:paddingStart="4dp"
+                android:text="@string/dummyVideoTitle"
+                android:textColor="@color/white"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                tools:ignore="RtlHardcoded,RtlSymmetry" />
+
+
+        </LinearLayout>
+
+        <SeekBar
+            android:id="@+id/home_preview_seekbar"
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:layout_gravity="bottom"
+            android:padding="0dp"
+            android:progressDrawable="@drawable/home_preview_seekbar_process"
+            android:thumb="@color/black" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_gravity="bottom"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/previewHomeMore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:foregroundGravity="top"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="4dp"
+                android:background="?attr/selectableItemBackground"
+                android:src="@drawable/ic_baseline_more_vert_24"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:tint="@color/white"
+                android:contentDescription="@string/more"
+                tools:ignore="MissingConstraints,RtlHardcoded" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/black_overlay"
+            android:id="@+id/selectedIndicator"
+            android:visibility="gone"
+            >
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:padding="8dp"
+                android:src="@drawable/ic_baseline_done_24"
+                android:background="@drawable/home_tab_indicator"
+                android:backgroundTint="@color/white"
+                app:tint="@color/purple_700"
+                android:contentDescription="@string/selecteditem" />
+
+        </FrameLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

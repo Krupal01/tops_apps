@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="5dp"
+        app:cardCornerRadius="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/thumbnailDelete"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/preview_thumbnail_bg"
+            android:contentDescription="@string/deleteDialogThumb"
+            android:scaleType="centerCrop" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="130dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/duration_size_bg"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:id="@+id/sizeDelete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/not_sans"
+                android:paddingStart="5dp"
+                android:paddingEnd="4dp"
+                android:text="@string/dummyVideoSize50mb"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_margin="8dp"
+            android:background="@drawable/duration_size_bg"
+            tools:ignore="RtlHardcoded">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/numOfItems"
+                android:visibility="gone"
+                android:text="@string/dummyVideoSize50mb"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:fontFamily="@font/not_sans" />
+
+        </LinearLayout>
+
+        <SeekBar
+            android:id="@+id/delete_preview_seekbar"
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:layout_gravity="bottom"
+            android:progressDrawable="@drawable/home_preview_seekbar_process"
+            android:thumb="@android:color/transparent" />
+
+    </androidx.cardview.widget.CardView>
+
+
+    <TextView
+        android:id="@+id/DeleteDialogTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="26dp"
+        android:layout_marginEnd="24dp"
+        android:maxLines="2"
+        android:ellipsize="end"
+        android:fontFamily="@font/not_sans"
+        android:textColor="@color/homePreviewMore"
+        android:textSize="12sp" />
+
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/typeOFCourseAfter10Fragment">
+
+    <fragment
+        android:id="@+id/typeOFCourseAfter10Fragment"
+        android:name="com.example.careercoach.afterWhat.TypeOFCourseAfter10Fragment"
+        android:label="fragment_type_o_f_course_after10"
+        tools:layout="@layout/fragment_type_o_f_course_after10" >
+        <action
+            android:id="@+id/action_typeOFCourseAfter10Fragment_to_diploma2"
+            app:destination="@id/diploma2" />
+        <action
+            android:id="@+id/action_typeOFCourseAfter10Fragment_to_scienceCommerceArts"
+            app:destination="@id/scienceCommerceArts" />
+        <action
+            android:id="@+id/action_typeOFCourseAfter10Fragment_to_ITICourses"
+            app:destination="@id/ITICourses" />
+    </fragment>
+    <fragment
+        android:id="@+id/ITICourses"
+        android:name="com.example.careercoach.afterWhat.after10th.ITICourses"
+        android:label="fragment_i_t_i_courses"
+        tools:layout="@layout/fragment_i_t_i_courses" />
+    <fragment
+        android:id="@+id/scienceCommerceArts"
+        android:name="com.example.careercoach.afterWhat.after10th.ScienceCommerceArts"
+        android:label="fragment_science_commerce_arts"
+        tools:layout="@layout/fragment_science_commerce_arts" />
+    <fragment
+        android:id="@+id/diploma2"
+        android:name="com.example.careercoach.different_courses.courses.Diploma"
+        android:label="Diploma" />
+</navigation>

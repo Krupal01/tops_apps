@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/settingsHomeFragment">
+
+    <fragment
+        android:id="@+id/settingsHomeFragment"
+        android:name="com.example.careercoach.settings.SettingsHomeFragment"
+        android:label="fragment_settings_home"
+        tools:layout="@layout/fragment_settings_home" />
+</navigation>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Career Coach</string>
+
+    <string name="my_description"> " I made is Application as an Early Android Student Project . I am  Looking to start the career as an entry-level software engineer with a reputed firm driven by technology.
+I am Strong in design and integration with intuitive problem-solving skills. I am Proficient in C,C++,JAVA and Android Programming , also Passionate about implementing and launching new projects. I have Ability to translate business requirements into technical solutions " </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <integer name="duration">300</integer>
+
+
+</resources>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:clickable="true"
+    android:focusable="true"
+    app:layout_behavior="@string/bottom_sheet_behavior"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/shareLinearLayout"
+        android:background="?android:attr/selectableItemBackground"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="4dp"
+        android:clickable="true"
+        android:focusable="true">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_share_24"
+            android:background="@drawable/player_buttons_bg"
+            android:backgroundTint="@color/PrimaryLight"
+            android:padding="8dp"
+            android:layout_margin="8dp"
+            app:tint="@color/purple_500"
+            android:contentDescription="@string/shareIon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/share"
+            android:layout_gravity="center_vertical"
+            android:fontFamily="@font/not_sans"
+            android:textSize="16sp"
+            android:textColor="@color/homePreviewMore"
+            android:padding="8dp"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/delete"
+        android:background="?android:attr/selectableItemBackground"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+        android:clickable="true"
+        android:focusable="true">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_delete_24"
+            android:background="@drawable/player_buttons_bg"
+            android:backgroundTint="@color/PrimaryLight"
+            android:padding="8dp"
+            app:tint="@color/purple_500"
+            android:layout_margin="8dp"
+            android:contentDescription="@string/deleteIcon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/delete_file"
+            android:layout_gravity="center_vertical"
+            android:fontFamily="@font/not_sans"
+            android:textSize="16sp"
+            android:textColor="@color/homePreviewMore"
+            android:padding="8dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/videoInformation"
+        android:background="?android:attr/selectableItemBackground"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:paddingTop="4dp"
+        android:paddingBottom="8dp"
+        android:clickable="true"
+        android:focusable="true">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_info"
+            android:background="@drawable/player_buttons_bg"
+            android:backgroundTint="@color/PrimaryLight"
+            android:padding="8dp"
+            android:layout_margin="8dp"
+            app:tint="@color/purple_500"
+            android:contentDescription="@string/infoIcon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/video_information"
+            android:fontFamily="@font/not_sans"
+            android:textSize="16sp"
+            android:textColor="@color/homePreviewMore"
+            android:layout_gravity="center_vertical"
+            android:padding="8dp"/>
+    </LinearLayout>
+</LinearLayout>

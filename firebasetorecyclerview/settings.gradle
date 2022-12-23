@@ -1,0 +1,2 @@
+rootProject.name = "firebase to recyclerview"
+include ':app'

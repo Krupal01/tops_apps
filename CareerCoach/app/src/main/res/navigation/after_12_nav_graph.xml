@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/typeOFCoursesAfter12Fragment">
+
+    <fragment
+        android:id="@+id/typeOFCoursesAfter12Fragment"
+        android:name="com.example.careercoach.afterWhat.TypeOFCoursesAfter12Fragment"
+        android:label="fragment_type_o_f_courses_after12"
+        tools:layout="@layout/fragment_type_o_f_courses_after12" >
+        <action
+            android:id="@+id/action_typeOFCoursesAfter12Fragment_to_after12Science2"
+            app:destination="@id/after12Science2" />
+        <action
+            android:id="@+id/action_typeOFCoursesAfter12Fragment_to_after12Commerce2"
+            app:destination="@id/after12Commerce2" />
+        <action
+            android:id="@+id/action_typeOFCoursesAfter12Fragment_to_after12Arts"
+            app:destination="@id/after12Arts" />
+    </fragment>
+    <fragment
+        android:id="@+id/after12Science2"
+        android:name="com.example.careercoach.afterWhat.after12th.After12Science"
+        android:label="fragment_after12_science"
+        tools:layout="@layout/fragment_after12_science" />
+    <fragment
+        android:id="@+id/after12Commerce2"
+        android:name="com.example.careercoach.afterWhat.after12th.After12Commerce"
+        android:label="fragment_after12_commerce"
+        tools:layout="@layout/fragment_after12_commerce" />
+    <fragment
+        android:id="@+id/after12Arts"
+        android:name="com.example.careercoach.afterWhat.after12th.After12Arts"
+        android:label="fragment_after12_arts"
+        tools:layout="@layout/fragment_after12_arts" />
+</navigation>

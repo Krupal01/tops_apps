@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "816429130793",
+    "project_id": "fir-torecycler-fd2fc",
+    "storage_bucket": "fir-torecycler-fd2fc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:816429130793:android:fbd42757bb19fc55db2838",
+        "android_client_info": {
+          "package_name": "com.example.firebasetorecyclerview"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "816429130793-ljiv305tuuvfejkogpis67in5qiuvqlt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzcgiPCTiCHx5LefdZJ5Y--hypG0eEGgo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "816429130793-ljiv305tuuvfejkogpis67in5qiuvqlt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

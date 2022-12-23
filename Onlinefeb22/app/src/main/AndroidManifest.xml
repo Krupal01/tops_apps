@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.onlinestorage">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.OnlineStorage"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".xml.NewsRecyclerActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".xml.personActivity">
+
+        </activity>
+        <activity android:name=".glide.ImageListActivity"></activity>
+        <activity android:name=".glide.GlideRootActivity" />
+        <activity android:name=".retrofit.RetrofitActivity" />
+        <activity android:name=".recycler_gson.GsonRecyclerActivity" />
+        <activity android:name=".gson.GsonActivity" />
+        <activity android:name=".cricketgson.GsonListActivity" />
+        <activity android:name=".download.DownloadActivity" />
+        <activity android:name=".railway.RailListActivity" />
+        <activity android:name=".post.postActivity" />
+        <activity android:name=".jsonlistview.JSONListViewActivity" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

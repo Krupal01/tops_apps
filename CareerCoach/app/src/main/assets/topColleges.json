@@ -1,0 +1,298 @@
+{
+  "lawColleges": [
+    {
+      "name": "National Law School of India University (NLSIU), Bengaluru",
+      "description": "National Law School of India University (NLSIU) is situated in Bangalore in the Karnataka state of India. \n\n The university was established in 1986 after a notification was passed by the national law school of India university act. The campus of the university is spread over 23 Acres and it has been accredited by BCI. The responsibility of the chancellor of the university is taken up by the Chief Justice of India. Diverse law courses are offered by the NLSIU Bangalore. It offers specialisation in human rights laws and business laws. It also provides Master’s in public policy, PhD programme, MPhil Degree programme, diploma course and Doctor of Law Degree (LLD). NLSIU Bangalore has also adopted distance education for certain courses. The university facilitates students with additional perks like hostels, ATM, library, mess, canteen, guest house, computer lab and medical facilities within the campus. The National Law School of India University accepts CLAT (Common Law Admission Test) for admission to the law courses."
+    },
+    {
+      "name": "National Law University (NLU), Delhi",
+      "description": "The University has access to Courts, Ministries, Bar and Bench along with having multiple collaborations with prominent law schools abroad which help in providing opportunities for the student exchange programme in each semester. NLU Delhi is the only institution that is highly altruistic in funding all kinds of activities of students handpicked for international mooting and other such competitions. "
+    },
+    {
+      "name": "NALSAR University of Law (NALSAR), Hyderabad",
+      "description": "The National Academy of Legal Studies and Research (NALSAR) was established in the year 1998 in the state of Andhra Pradesh. NALSAR is known as one of the top law schools in India which has become home to significant conversations on law and the world of corporations, courts, education and administration. Since its inception, the university has attempted varied strategies to impart legal education and execute the curriculum in various diploma and degree programmes like B.ALL.B, LL.M, MBA, Master’s Degree in Space and Telecommunication Laws (MSTL), PG Diploma in GIS & Remote Sensing Laws (PGDGRL), PG Diploma in Aviation Law and Air Transport Management (PGDALATM) and Master’s Degree in Aviation Law and Air Transport Management (MALATM). With the belief that learning requires support, collegiality and collaboration, NALSAR has exchanged agreements and philanthropists from law schools across the world."
+    },
+    {
+      "name": "National Law Institute University (NLIU), Bhopal",
+      "description": "The NLIU vision is to become one of the best centres of training, research and legal education in the world. The university aims at the development of the intellectuals for the betterment of the entire humanity and the nation through the discourse of Justice and Law. Inter alia, the main objective of NLIU is to instil a sense of responsibility among the students and contributing to the development of the nation. It also believes in cultivating in them the traits of leadership, the spirit of intellectual freedom, clarity and imaginative power. NLIU Bhopal goal is to deliver and design the courses in a fashion that enhances the inner capacity and potential of the students, faculty members and other participants in resolving and avoiding problems under the umbrella of law."
+    },
+    {
+      "name": "Symbiosis Law School (SLS), Noida",
+      "description": "SLS Noida regularly holds moot court events, seminars and workshops for its students. It also conducts extra-curricular activities to focus on the holistic development of law aspirants. SLS Noida develops global competencies amongst students and stresses on quality education. SLS Noida has an independent Training and Placement Cell that look after the interest and professional development of the students. The college aims at sprouting thought-provoking leaders for the society and promotes ethical and value-based learning to the students."
+    },
+    {
+      "name": "ILS Law College (ILSLC ), Pune",
+      "description": "ILS Law College is situated in Pune in Maharashtra state of India. Established in 1924, it is accredited from UGC, NAAC, AICTE and it is affiliated to Savitribai Phule University. ILSLC , Pune offers 6 courses across 2 streams namely Law, Arts and across 4 degrees like LLB, BA+LLB, LLM, Diploma. ILSLC campus is spread over 195 Acres. Hostel facility is available for its students. Additional campus facilities such as A/C, Auditorium, Boys Hostel, Canteen, Computer Lab, Convo. Hall, Counselling, Girls Hostel, Gym, Mess are also there."
+    },
+    {
+      "name": "Gujarat National Law University (GNLU), Gandhinagar",
+      "description": "The Gujarat National Law University, GNLU is located in Gandhinagar, in the Gujarat State of India. The university was established in 2003 and is recognized by BCI (Bar Council of India) and UGC (University Grants Commission). The university offers undergraduate and post-graduate courses in the stream of law and also provides additional facilities like Hostels, Academic Zone, Computer Lab, Auditorium and Theatre. GNLU is a socially-responsible institute that is committed to being a leader in teaching, research and extension of environmental sustainability. It takes great care to conserve the campus environment and ecology. The university campus is stretched in 50 acres of land that grabs attention with flowers, shrubs and trees. The motto of GNLU is to flourish with advance learning and knowledge of legal processes and law. Its objective is to develop a sense of responsibility in the research scholars and students. It aims at developing skills in regard to legal service, advocacy, legislation, law reforms, parliamentary practices and to encourage the interdisciplinary study of law in relation to technology, management development and international cooperation."
+    },
+    {
+      "name": "O.P. Jindal Global University - JGU, Sonepat",
+      "description": "The campus of O.P. Jindal Global University spread over 80 acres of land .Maintaining the ratio of 1:13 faculty - student ratio,The university has many experienced faculties with different area of interest. O.P. Jindal Global University provides accomodation facility for both boys and girls separately and other facilities like Health Center, Library e.t.c."
+    },
+    {
+      "name": "National Law University (NLU), Jodhpur",
+      "description": "Situated at Jodhpur, National Law University (NLUJ) was established in the year 1999. It is stretched over 55 acres of land. The university has produced exceptional legal scholars and lawyers over time. It aims at challenging and pushing the boundaries of knowledge. NLUJ grabs the attention of nationwide students from a diverse cultural, social and religious background. The university offers undergraduate and post-graduate. The university also offers PhD program in order to attain excellence in higher education. NLUJ boasts of diverse and dynamic faculty comprising of both, young and experienced academicians hailing from a diverse background. The university aims excellence in legal studies and law. It focuses mainly on the advancement of learning and knowledge. It is dedicatedly working on churning out the committed lawyers of highest academic standards."
+    }
+  ],
+  "armyColleges": [
+    {
+      "name": "National Defense College",
+      "description": "Established in 1960, National Defense College (NDC) is one of the pioneering institutes in military training and education. Imparting extensive courses in national security and strategy, they provide intensive skill development in their educational programmes."
+    },
+    {
+      "name": "Defense Services Staff College",
+      "description": "Defense Service Staff, Wellington was set up in 1947, and it has been providing high-caliber education in military ever since. Their tri-service training programmes are aimed at middle level officers of the three wings – Navy, Army and the Air Force."
+    },
+    {
+      "name": "Armed Force Medical College",
+      "description": "One of the most recognized medical colleges of India, AFMC provides superior education, which is mostly skill-intensive programmes for medical postgraduate and undergraduate students, including nurses, paramedics and dentists."
+    },
+    {
+      "name": "Institute Of Military Law",
+      "description": "Institute Of Military Law is an ‘A’ category foundation of Indian army, which provides two-fold training to defense service officers and paramilitary forces in administration of justice and maintenance of discipline. It is an optimal choice for a career in defense forces."
+    },
+    {
+      "name": "National Defense Academy",
+      "description": "Addressed as the first tri-service academy in the world, the institution trains the cadets of the army, the navy and the air force together, before they join their discrete service academies for further stages of military preparation."
+    },
+    {
+      "name": "Army War College",
+      "description": "Gaining expertise in tactical training and operational excellence, this premier institute is located in Mhow, Madhya Pradesh. They excel in developing doctrines and programmes for making personnel technology competent, which further synchronizes them to the latest military build out."
+    },
+    {
+      "name": "High Altitude Warfare School",
+      "description": "A training and research establishment situated in the pristine valley of Gulmarg, this institute has gained its prestige as being one of the most famous warfare academies in the world, teaching winter warfare and mountain warfare techniques."
+    },
+    {
+      "name": "School of Artillery",
+      "description": "School of Artillery, Maharashtra is best recognized for its equipment education and training in artillery fire, which produces quality gunners. With high standards to be maintained, the university enrolls only a few candidates from the extensive applications of aspirants it receives every year to make their career in armed forces. These institutes deliver best education to trainees, endowing them with the ability to execute military tasks and orders. Endeavoring your military careers, you will be trained for all areas of military from combats to law and administration."
+    }
+  ],
+  "movieColleges": [
+    {
+      "name": "Film and Television Institute of India (FTII), Pune",
+      "description": "Film and Television Institute of India is situated in Pune in Maharashtra state of India. Established in 1960, and it is affiliated to University of Pune. FTII, Pune offers 0 courses across 0 streams namely and across 0 degrees like .Hostel facility is not available for its students. Additional campus facilities such as Auditorium, Computer Lab, Gym, Library, Medical Facilities, Cls. Room, Sports, Cafeteria , Laboratories, Hostel are also there."
+    },
+    {
+      "name": "National Institute of Design (NID), Ahmedabad",
+      "description": "NID Ahmedabad has been listed as one of the top 25 European and Asian institutes for design in the world. The institute has been internationally acclaimed  and is a leading multi-disciplinary institutions in the design education and research. By virtue of the National Institute of Design Act 2014, NID Ahmedabad has been declared as the 'Institution of National Importance' by the Act of Parliament. NID is known as a pioneer in industrial design education after Ulm and Bauhaus in Germany and is renowned in the world for its pursuit of excellence in the field and to have made Designed in India and Made for the World a reality. Graduates of NID Ahmedabad have made a mark in major sectors of commerce, social development, industry by taking roles of catalysts."
+    },
+    {
+      "name": "Whistling Woods International (WWI), Mumbai",
+      "description": "Whistling Woods International (WWI), which is regarded as Asia’s premier institute for Film, Communication, Media and Creative Arts. WWI was founded by one of the popular filmmakers’ Subhash Ghai and the institute is promoted by Mukta Arts Limited. Since 2006, WWI has been successful in providing world-class education in creative and technical aspects of Media & Entertainment. The number of achievements that WWI bagged so far clearly indicates the quality of education that is being offered. The Hollywood Reporter has rated Whistling Woods International (WWI) as one of the Ten Best Film Schools in the world."
+    },
+    {
+      "name": "Ramesh Sippy Academy of Cinema and Entertainment (RSACE), Mumbai",
+      "description": "Ramesh Sippy Academy of Cinema and Entertainment (RSACE), Mumbai was established in 2017. Approved by the UGC (University Grants Commission) the institute is affiliated with the University of Mumbai and accredited to Garware Institute of Career Education and Development."
+    },
+    {
+      "name": "AAFT University (AAFT), Raipur",
+      "description": "AAFT University is situated in Raipur in Chhattisgarh state of India. Established in 2018, it is accredited from UGC Hostel facility is not available for its students. Additional campus facilities such as Library, Sports, WiFi, Seminar Hall, Hostel are also there."
+    },
+    {
+      "name": "National School of Drama , New Delhi",
+      "description": "National School of Drama, NSD, is a theatre training institute situated in the national capital of the country, Delhi. This institute is an autonomous organization established under the Ministry of Culture, Government of India. In was set up in 1975, in 2005 it was given the status of the Deemed University."
+    }
+  ],
+  "medicalColleges": [
+    {
+      "name": "AIIMS Delhi",
+      "description": "All India Institute of Medical Sciences abbreviated as AIIMS Delhi is one of the top choices for medical aspirants in India. According to the recent NIRF rankings, AIIMS Delhi is the number medical institute in the country and it has managed to maintain this position since 2018. Situated in the capital city of India, the institute was established in 1956, and ever since then, it has managed to excel in the field of medical education by providing the best combination of theoretical and practical knowledge.Providing modern facilities for research, training and patient care, AIIMS Delhi has 25 clinical departments, over 600 research publications and research being conducted in 42 different disciplines."
+    },
+    {
+      "name": "Armed Forces Medical College, Pune",
+      "description": "Armed Forces Medical College is situated in Pune in Maharashtra state of India. Established in 1948, it is accredited from NAAC, MCI, NABL and it is affiliated to Maharashtra University of Health Sciences. AFMC, Pune offers 53 courses across 5 streams namely Medical, Nursing, Paramedical, Science, Pharmacy and across 10 degrees like MBBS, BPMT, BSc, MD, MS (Surgery). AFMC campus is spread over 119 Acres. Hostel facility is not available for its students. Additional campus facilities such as Auditorium, Boys Hostel, Canteen, Computer Lab, Girls Hostel, Gym, Hospital, Library, Medical Facilities, Cls. Room are also there."
+    },
+    {
+      "name": "Kasturba Medical College",
+      "description": "Kasturba Medical College is one of the top medical institutions in India. This institute was established 64 years ago and is a constituent part of Manipal Academy of Higher Education. It was the first self-financing college and is a prominent research centre in India. The institution is located in the Mangalore and is recognized by the Medical Council of India. KMC is known globally for its quality education.KMC Mangalore offers a variety of UG and PG courses in various specializations such as Reconstructions, Colon and Rectal Surgery, General Urology, General Surgery, Obstetrics & Gynaecology, Anaesthesiology, Anatomy, Biochemistry etc."
+    },
+    {
+      "name": "Maulana Azad Medical College, Delhi",
+      "description": "Maulana Azad Medical College is situated in Delhi in Delhi state of India. Established in 1958, it is accredited from MCI and it is affiliated to University of Delhi. MAMC, Delhi offers 27 courses across 5 streams namely Medical, Science, Paramedical, Pharmacy, Dental and across 5 degrees like MBBS, BDS, MD, MS (Surgery), Diploma. MAMC campus is spread over 30 Acres. Hostel facility is not available for its students. Additional campus facilities such as Boys Hostel, Computer Lab, Library are also there. b'Maulana Azad Medical College' accepts National Eligibility Cum Entrance Test-(NEET-UG) for admission into Engineering courses and National Eligibility Cum Entrance Test-(NEET-UG) for admission into Engineering courses"
+    },
+    {
+      "name": "Jawaharlal Institute of Postgraduate Medical Education & Research, Puducherry",
+      "description": "Jawaharlal Institute of Postgraduate Medical Education & Research is situated in Puducherry in Puducherry state of India. Established in 1823, it is accredited from Medical Council of India (MCI) JIPMER campus is spread over 195 Acres. Hostel facility is not available for its students. Additional campus facilities such as Cls. Room, Practical Labs, Chair, Laboratories are also there."
+    },
+    {
+      "name": "Lady Hardinge Medical College, New Delhi",
+      "description": "LHMC, as it is popularly known,  received its affiliation from the University of Delhi in 1950. Postgraduate courses in Lady Hardinge Medical College were first affiliated to Punjab University in 1954 and later to the University of Delhi in 1956. Currently, the institute admits around 150 candidates for PG courses like Neonatology, Pediatric Surgery and many more.Lady Hardinge Medical College, New Delhi recently celebrated 100 years of its inception and academic excellence in the year 2016 and aims at taking giant strides towards providing state of the art medical training and education in India.  The College motto “Per Ardua Ad Astra” i.e Through Adversity to Stars, highlights the emphasis on the fact that excellence cannot be achieved without hard work."
+    },
+    {
+      "name": "Madras Medical College, Chennai",
+      "description": "Madras Medical College (abbreviated as MMC Chennai) is an educational institution located in Chennai, Which is the capital of the Indian state of Tamil Nadu. It was established on February 2, 1935. MCC is the 3rd oldest medical college in India and is one of the foremost centers of PG medical education in the country with four-twenty-five (425) seats.At present, around twenty-five hundred medical and paramedical students are studying at Madras Medical College, Chennai. MMC, Chennai is affiliated to the Tamilnadu Dr. MGR University. It provides MBBS (Bachelor of Medicine and Surgery), BPT (Bachelor of Physiotherapy) and B.Sc (Bachelor of Science) at the undergraduate level and MD (Doctor of Medicine), MS (Master of Science) and M.Pharm (Master of Pharmacy) at postgraduate level. It also provides Postgraduate Diploma and Super-specialty programs, namely DM & MCH in different specializations."
+    },
+    {
+      "name": "Sri Ramachandra Medical College & Research Institute (SRMCRI), Chennai In Top Medical colleges in India",
+      "description": "Sri Ramachandra Medical College & Research Institute is situated in Chennai in Tamil Nadu state of India. Established in 1985, it is accredited from MCI, NAAC and it is affiliated to Sri Ramachandra University. SRMCRI, Chennai offers 136 courses across 9 streams namely Medical, Paramedical, Science, Pharmacy, Dental, Nursing, IT, Management, Engineering and across 21 degrees like BSc, B.Tech, BBA, B.Optom, BPT. SRMCRI campus is spread over 150 Acres. Hostel facility is not available for its students. Additional campus facilities such as A/C, Auditorium, ATM, Boys Hostel, Canteen, Computer Lab, Fest, Education Festival, Gym, Hospital are also there."
+    },
+    {
+      "name": "Seth Gordhandas Sunderdas Medical College (SGSMC), Mumbai",
+      "description": "Seth Gordhandas Sunderdas Medical College is situated in Mumbai in Maharashtra state of India. Established in 1926, it is accredited from Other Hostel facility is not available for its students. b'Seth Gordhandas Sunderdas Medical College' accepts National Eligibility Cum Entrance Test-(NEET-UG) for admission into Engineering courses and National Eligibility Cum Entrance Test-(NEET-UG) for admission into Engineering courses"
+    }
+  ],
+  "commerceColleges": [
+    {
+      "name": "Lady Shri Ram College for Women (LSR), Delhi",
+      "description": "LSR provides a range of undergraduate courses in the stream of Arts, Commerce and Science. Professional courses like Journalism and Elementary Education are also provided in addition to the one year diploma programme and Environmental Studies. The alumni list of LSR, University of Delhi consists of a long illustrious list of successful and universally recognised people who have made a name for themselves with perseverance, focus, integrity, positivity and focus-all the qualities which they successfully imbibed from the institute itself."
+    },
+    {
+      "name": "Loyola College, Chennai",
+      "description": "Loyola College, located in Chennai is one of the top colleges in India for Arts, Science, Commerce and Management courses. Students from all parts of the country compete for limited seats in various UG and PG courses. Quality education and discipline are the key factors that make Loyola a pioneer institute. Society of Jesuits founded Loyola College in 1925. It is a Catholic Minority educational institute, which provides quality education irrespective of caste and creed."
+    },
+    {
+      "name": "St. Xaviers College (SXC), Mumbai",
+      "description": "St. Xaviers College is situated in Mumbai in Maharashtra state of India. Established in 1869, it is accredited from NAAC and it is affiliated to University of Mumbai. SXC, Mumbai offers 19 courses across 10 streams namely Science, Media and Mass Communication, Arts, Commerce and Banking, Management, IT, Medical, Paramedical, Vocational, Hotel Management and across 10 degrees like BSc, B.Voc, BMS, B.Com, BA. SXC campus is spread over 3 Acres. Hostel facility is not available for its students. Additional campus facilities such as Auditorium, Boys Hostel, Canteen, Computer Lab, Gym, Library, Medical Facilities, Cls. Room, Sports, Cafeteria are also there."
+    },
+    {
+      "name": "Hindu College, New Delhi - University Of Delhi",
+      "description": "There is a total of 39 courses offered by Hindu College, New Delhi. Degrees Provided by Hindu College includes B.Sc, B.Com, B.A., M.Sc, M.Com, M.A. and Certificate Diploma courses in some foreign languages that include French, German and Russian.Hindu College as B.Sc courses with subjects like Mathematics, Statistics, Physics, Chemistry, Botany, etc. It offers B.A. in courses like English, Hindi, History, Political Science, Philosophy, Economics, etc. For higher studies in Hindu College, the college provides Masters degrees affiliated under Delhi University. Hindu College is a reputed college in Delhi NCR that has been awarded A+ grade by NAAC also, other ranking agencies ranked Hindu College at the top positions."
+    },
+    {
+      "name": "St. Joseph College of Commerce (SJCC Bangalore), Bengaluru",
+      "description": "SJCC is managed and administered by the Jesuits, a worldwide Catholic community with a special focus on education. SJCC Bangalore is also recognized as a research centre by the Bangalore University. As the name suggests, the college mainly offers commerce courses at UG and PG level. In addition to these, the college also offers management courses at UG level, Postgraduate Diploma, CMA along with B.Com."
+    },
+    {
+      "name": "Narsee Monjee college of Commerce and Economics (NMCCE), Mumbai",
+      "description": "Narsee Monjee college of Commerce and Economics is situated in Mumbai in Maharashtra state of India. Established in 1964, it is accredited from NAAC and it is affiliated to University of Mumbai. NMCCE, Mumbai offers 6 courses across 3 streams namely Commerce and Banking, Management, IT and across 4 degrees like B.Com, BSc, BMS, M.Com.Hostel facility is not available for its students. Additional campus facilities such as Math Lab, Academic Zone, A/C, AV Lab, Auditorium, Computer Lab, Library, Medical Facilities, Cls. Room, Sports are also there."
+    },
+    {
+      "name": "St. Andrew College Of Arts Science & Commerce (SACASC), Mumbai",
+      "description": "St. Andrew College Of Arts Science & Commerce is situated in Mumbai in Maharashtra state of India. Established in 1981, it is accredited from AICTE Hostel facility is not available for its students. Additional campus facilities such as Canteen, Computer Lab, Library, Cls. Room are also there."
+    },
+    {
+      "name": "Hansraj College, Delhi - University of Delhi",
+      "description": "The college offers 34 courses across 5 different streams of Science, Arts, Management, Commerce & Banking and Engineering providing 7 degrees in B.Sc., B.A., B.Tech., B.Com., M.Sc., M.A., and M.Com. The governing body of Hansraj College, Delhi leaves no stones unturned to make sure that no student is deprived of the education he/she deserves and for that, it provides various scholarships to the students that meet the criteria."
+    },
+    {
+      "name": "Mount Carmel College (MCC), Bengaluru",
+      "description": "Mount Carmel College is situated in Bengaluru in Karnataka state of India. Established in 1948, it is accredited from UGC, NAAC and it is affiliated to Bangalore University. MCC, Bengaluru offers 62 courses across 12 streams namely Commerce and Banking, Management, Arts, Science, Agriculture, Pharmacy, IT, Paramedical, Design, Media and Mass Communication, Physical Education, Hotel Management and across 13 degrees like BSc, BA, B.Com, B.Voc, BCA. MCC campus is spread over 10 Acres. Hostel facility is available for its students. Additional campus facilities such as AV Lab, Auditorium, ATM, Boys Hostel, Canteen, Computer Lab, Fest, Girls Hostel, Gym, Library are also there. b'Mount Carmel College' accepts Karnataka PGCET - Karnataka Post Graduate Common Entrance Test for admission into Engineering courses"
+    }
+  ],
+  "managementColleges": [
+    {
+      "name": "Indian Institute of Management Ahmedabad (IIM Ahmedabad)",
+      "description": "Indian Institute of Management Ahmedabad (IIMA) is a government institute located in Vastrapur, Ahmedabad. The institute was established in the year 1961 set up by the Government of India with the collaboration of the Government of Gujarat and Indian industry as an independent institute. The Institute gives guidance, coaching, consulting, and research in management. In 2018, the IIM Ahmedabad is the No. 1 management institute by the NIRF, Management ranking. IIM Ahmedabad is consistently rated as the Top B-School in India by reputed national agencies like Outlook, Business Today, Business India, etc. IIMA aims to educate leaders of the future where they contribute their effort to make a difference in the organizations and to the world around them."
+    },
+    {
+      "name": "IIM Bangalore - Indian Institute of Management (IIMB)",
+      "description": "Indian Institute of Management, Bangalore or IIM Bangalore was established in 1973 by the government of India. IIM Bangalore is located at Bannerghatta Road, Bengaluru, India. The college is accredited by the European Quality Improvement System (EQUIS). IIM Bangalore has been ranking 1 Business School in Central Asia region in 2018 for the tenth consecutive year in 2018 and has secured 2nd position by National Institutional Ranking Framework (NIRF) rankings in the list of top management colleges. The college was awarded  'Asia Pacific HRM Congress Awards 2017' for having innovative HR Practices and has also won Rajbhasha Award for the year 2016-17. The college is in collaboration with the Global Advanced Network for Management (GNAM).IIMB runs a student exchange program that allows students to get exchanged with some of the top-ranking universities like the Asian Insititute of Management, Curtin University, University of South Carolina and many others."
+    },
+    {
+      "name": "Indian Institute of Management, Calcutta - IIMC, Kolkata",
+      "description": "the Institute. IIM Calcutta campus life offers an environment to the students which are suitable to facilitate learning.Indian Institute Management Calcutta is the only Management School in India and 86 similar global Business Schools that has triple accreditation, i.e from Association of MBAs (AMBA), Association to Advance Collegiate Schools of Business (AACSB) and European Quality Improvement System (EQUIS). In addition to abundant resources, IIMC offers individual attention and intellectual depth to the students. IIM Calcutta welcomes the students who want to be a part of their journey of creating an ethical and responsible leadership."
+    },
+    {
+      "name": "Indian School of Business (ISB), Hyderabad",
+      "description": "The Indian School of Business does not only takes on-board the students from India but it is also open for international admissions. The B-School receives a significantly high number of international applicants. After IIMs, ISB is the B-School which gives the students some of the most lucrative placement offers. Being such a prestigious institute, students get placed in the top organisations in India and Worldwide."
+    },
+    {
+      "name": "Indian Institute of Management Lucknow (IIM Lucknow)",
+      "description": "Apart from the teaching, IIM Lucknow conducts various workshops & seminar to the student which helps them to increase their Soft Skill, Personality Development, and Communication ability. IIM Lucknow has years of experience where they groomed the student into well-balanced business leaders who have a strong rooting in practical expertise. Every year, IIM Lucknow offers a unique summer internship programme which acts as a window to the student for the corporate world."
+    },
+    {
+      "name": "Xavier Labour Relations Institute - (XLRI), Jamshedpur",
+      "description": "Over many years XLRI has developed its own identity, whether it is in the field of education or in the state of the art architecture. The sprawling campus of XLRI School of Management is up to 40 acres of land surrounded by beautiful Dalma Hills in the North. The classrooms of XLRI is equipped with OHPs, computers and LCD projectors to facilitate the teaching. The campus has two state-of-the-art auditorium, where the student events, guest lectures, seminars, and the famed XLRI Student General Body Meetings are conducted. XLRI Jamshedpur is a wifi-enabled campus where the student, faculty members & other staff members can seamlessly use the internet facility without any restrictions."
+    },
+    {
+      "name": "Faculty of Management Studies (FMS), Delhi",
+      "description": "FMS, New Delhi offers Master of Business Administration (MBA), Executive Master of Business Administration (EMBA), Executive Master of Business Administration in Healthcare Administration (EMBA-HCA), Management Development Programme (MDP) and Doctor of Philosophy (Ph.D.) at Undergraduate, Postgraduate and Doctoral levels. Admission to the courses is done on the behalf of CAT (Common Admission Test) conducted by the Indian Institute of Management (IIMs).FMS Delhi offers 100% placement all the students. Every year top reputed companies are invited in the college for campus placement procedure. Placement is provided in many sectors like finance, sales and marketing, human resource, consulting etc."
+    },
+    {
+      "name": "Indian Institute of Management Kozhikode (IIM Kozhikode)",
+      "description": "The institute has well-experienced and highly qualified faculty members from world’s top institute. Many of the faculty members are associated with the Institute for many years now. A silent and superb feature of the faculty of the IIMK is that each faculty involved in Research, Teaching in Post Graduate Programme, Interactive Distance Learning Programmes, Faculty Development Programmes and conducts many Management Development Programmes each year. All the faculty members are also actively associate in industry interaction seminars and National/International conferences."
+    },
+    {
+      "name": "Jamnalal Bajaj Institute of Management Studies (JBIMS), Mumbai",
+      "description": "Jamnalal Bajaj Institute of Management Studies (JBIMS) is a private Institute situated in Mumbai, Maharashtra, India. It is the Department of Management Studies of the University of Mumbai (MU)."
+    },
+    {
+      "name": "Shailesh J Mehta School of Management (SJMSOM), IIT Bombay",
+      "description": "SJMSOM offers various courses such as MBA, Executive MBA, Fellowship Programmes and more to build the business leaders of tomorrow. This b-school under the professionalism of IIT Bombay has now emerged as one of the top B-Schools in India. The alumni of the school have marked their prominent presence on the global scale. Some students are well settled in the western countries and some are handling some top positions of some top Indian companies."
+    }
+  ],
+  "engineeringColleges": [
+    {
+      "name": "Indian Institute of Technology (IIT KGP), Kharagpur",
+      "description": "IIT Kharagpur is one of the top premier institutes in India for pursuing various courses. IIT Kharagpur is popularly known as IIT KGP. The institute has its own curriculum, which focuses on the overall development of the students. Over the years, thousands of students graduated from IIT Kharagpur, and all of them have secured jobs in top companies. IIT Kharagpur has a wide alumni network, which supports the Institute whenever required. At the same time, the alumni of the institute mentor the incoming students in diverse aspects."
+    },
+    {
+      "name": "Indian Institute of Technology Delhi - (IIT Delhi)",
+      "description": "Indian Institute of Technology Delhi is situated in Delhi in Delhi state of India. Established in 1961, it is accredited from AICTE and it is affiliated to Indian Institute of Technology Delhi. IITD, Delhi offers 100 courses across 6 streams namely Engineering, Science, IT, Management, Design, Arts and across 9 degrees like B.Tech, B.Tech+M.Tech, M.Tech, MS, MBA. IITD campus is spread over 325 Acres. Hostel facility is available for its students. Additional campus facilities such as Math Lab, ATM, Boys Hostel, Canteen, Computer Lab, Counselling, Fest, Cultural zone, Girls Hostel, Guest house are also there. b'Indian Institute of Technology Delhi' accepts JEE Advanced for admission into Engineering courses and Graduate Aptitude Test in Engineering (GATE) for admission into Engineering courses"
+    },
+    {
+      "name": "Indian Institute of Technology Madras (IIT Madras), Chennai",
+      "description": "IIT (Indian Institute of Technology) Madras is one of the oldest and popular IITs in India. IIT Madras was founded in 1959 and the institute has been dominating in the field of engineering education and research output. IIT Madras has shown exceptional performance in national and international rankings. The premier institute bagged the top spot in NIRF Rankings awarded by MHRD (Ministry of Human Resource Development). As far as international rankings are concerned, IIT Madras has always featured in the list of top 500-1000 institutes across the globe. The performance of IIT Madras in international rankings is the major reason for the presence of international students on the campus."
+    },
+    {
+      "name": "Indian Institute of Technology Kanpur (IIT Kanpur)",
+      "description": "IIT (Indian Institute of Technology) Kanpur is one of the top premier institutes of technology in India. The Government of India established IIT Kanpur in 1958. The main aim of the institute is to provide quality education, deliver quality research and to provide leadership in technological innovation. IIT Kanpur is one among the top IITs in India, which has been showing excellence in not only academics but also research. The premier institute has been focusing on research initiatives and has tie-ups with various universities and organizations across the globe. As far as education is concerned, IIT Kanpur empowers the students with critical thinking focused approach and scientific temperament. Students at IIT Kanpur attain knowledge in various domains such as engineering, science, technology, humanities, and management. The globally acclaimed education system of IIT Kanpur provides rewarding and exciting career prospects for students. The graduates of IIT Kanpur have bagged jobs in top companies with lucrative salary packages."
+    },
+    {
+      "name": "Indian Institute of Science - (IISC), Bangalore",
+      "description": "Indian Institute of Science is situated in Bangalore in the Karnataka state of India. Established in 1909, it is accredited by UGC and NAAC. Since its establishment, the Indian Institute of Science, Bangalore has become India’s premier institute in terms of advanced scientific and technological research and education. The main mission of IISC, Bangalore is “to provide for advanced instruction and to conduct original investigations in all branches of knowledge as are likely to promote the material and industrial welfare of India.” In accordance with this objective, the Institute has strived to foster a balance between the pursuit of basic knowledge and applying its research for industrial and social benefit. IISc has a vibrant and diverse campus spread over 440 acres of greenery in the city of Bengaluru (formerly Bangalore), India’s hub of high-tech companies (in aerospace, electronics, and information technology), educational and research institutions, and numerous start-ups. "
+    },
+    {
+      "name": "IIT Roorkee: Indian Institute of Technology Roorkee",
+      "description": "IIT Roorkee maintains diversity on campus by enrolling students from diverse backgrounds. Students from various states seek admission in IIT Roorkee, and cultural-exchange is one among the major highlights that justifies the diversity on the IIT Roorkee campus. On the other hand, international students from different countries also come to study at IIT Roorkee, and the institute has all the facilities to accommodate international students. The curriculum of IIT Roorkee encourages students to think in an innovative manner. Students are motivated to come up with innovative ideas to solve the various challenges that are being faced by the nation. On the other stand, support will be provided to students who plan to start their own ventures/ startups after the completion of the course."
+    },
+    {
+      "name": "Indian Institute of Technology (IIT), Bombay / Mumbai",
+      "description": "IIT Bombay offers diverse courses ranging from UG to Doctorate level courses. The premier institute has an outstanding faculty, and the research contributions made by the faculty members of IIT Bombay have received international acclaim. The research work of IIT Bombay faculty is published in many international journals. On the other hand, IIT Bombay students participate in various national and international competitions, hackathon, events, quiz competition, etc and bring several accolades to the institute."
+    },
+    {
+      "name": "IIT (BHU), Varanasi - Indian Institute of Technology (BHU) Varanasi In Top Engineering colleges in India",
+      "description": "Indian Institute of Technology is situated in Varanasi in Uttar Pradesh state of India. Established in 1919, it is accredited from UGC, AICTE IIT BHU campus is spread over 400 Acres. Hostel facility is available for its students. Additional campus facilities such as Academic Zone, A/C, Auditorium, ATM, Boys Hostel, Canteen, Computer Lab, Counselling, Cultural zone, Guest house are also there. b'Indian Institute of Technology' accepts JEE Advanced for admission into Engineering courses"
+    },
+    {
+      "name": "Birla Institute of Technology and Science (BITS), Pilani",
+      "description": "BITS Pilani currently caters to over 4000 students from all across the country and is also one of the first Universities in India which has an overseas campus, a feat achieved with the opening of BITS Dubai. BITS Pilani is also one of those private Universities in India with a 100% placement record. The BITS Pilani alumni are currently employed HSBC, HDFC, IOC, Axis Bank and several other leading Organisations. The National Assessment and Accreditation Council (NAAC) accredited Birla Institute of Science (BITS) Pilani with an “A” grade in the year 2016.BITS Pilani is also very popular for its placements record. The graduates of BITS Pilani are most preferred by top companies across the globe, and the international placement percentage of BITS is also satisfactory. Once the placement process is concluded for outgoing batch, BITS Pilani releases a course-wise placement report. All the details about BITS Pilani placements can be checked in the placements section here."
+    },
+    {
+      "name": "Indian Institute of Technology Guwahati (IIT Guwahati)",
+      "description": "Apart from academic assistance, placement guidance is also given to the students of IIT Guwahati so that they can get jobs before the completion of the course. The premier institute has a wide alumni network that plays a dominant role in supporting the institute. The alumni also fund the institute to implement developmental activities. At the same time, the alumni also mentor the students during the placement season."
+    }
+  ],
+  "artAndDesignColleges": [
+    {
+      "name": "National Institute Of Design (NID)",
+      "description": "Established in 1961, the National Institute of Design, Ahmedabad is known as one of the leading design institutes of the nation. Students need to qualify the NID entrance test to get admission in the institute. The exam is organized across the 12 exam centres in India. Any student who has qualified the class 12th exam from CBSE or any other recognized board is eligible to apply for undergraduate courses. A candidate with a bachelor’s degree of 3 or 4-year duration in any discipline or a full-time diploma for at least 4 years in Design/Fine Arts/Architecture/Applied Arts can apply for a postgraduate course."
+    },
+    {
+      "name": "Industrial Design Centre, IIT Bombay (IDC-IITB)",
+      "description": "Industrial Design Centre (IDC) was established in 1969. It is considered as one of the oldest and prestigious schools to pursue your studies from. Situated in Mumbai, IDC offers multiple courses to opt from. It prepares you for a professional world and opens up the doors for a bright future. Candidates who have qualified the class 12th examination can apply for the undergraduate programs. Whereas candidates with a relevant bachelor’s degree can apply for a postgraduate course. Interested candidates can apply online or offline for admission and they are selected on the basis of CEED score and personal interview."
+    },
+    {
+      "name": "National Institute of Fashion Technology (NIFT), Mumbai",
+      "description": "National Institute of Fashion Technology, NIFT was established in 1995 in Mumbai. It is considered as the top-notch fashion institute that provides a brilliant platform to students. NIFT has its own entrance exam which needs to be qualified in order to pursue design courses. The entrance exam has parts like CAT (Creative Ability Test), GAT (General Ability Test) and a situation based test. The institute has a name nation-wide which not only attracts the students but also the recruiting companies. It ensures a secure future of the students and helps in enhancing and cultivating skills required in the design industry."
+    },
+    {
+      "name": "National Institute of Fashion Technology (NIFT), Delhi",
+      "description": "The year of establishment for NIFT, Delhi is 1986. It originally began with just one fashion designing course. With time the institute gained popularity and it became a brand in itself. The institute is associated with the Ministry of Textiles and Government of India. It was also ranked as number 17 among the top fashion institutes of the world. The institute offers B.Des and M.Des courses which are hugely popular amongst students. NIFT, Delhi has an amazing placement record and it is also one of the major reasons behind its popularity."
+    },
+    {
+      "name": "Pearl Academy, Mumbai",
+      "description": "Pearl Academy is a private institution that was established in 1993. It is located in Mumbai, Jaipur, and Mumbai. The academy is extremely popular and has been considered as the best design institute in India by ASSOCHAM in 2017. The institute provides enough placement and internship opportunities which help in accelerating the career of the candidate. Companies like Walt Disney, Manish Malhotra, UCB, Myntra, and Yash Raj Films come to the campus for placement and hire students to work for them."
+    },
+    {
+      "name": "National Institute of Design (NID), Gandhinagar",
+      "description": "NID is an extremely popular institute that is located in Gandhinagar, Ahmedabad, and Bangalore. National Institute of Design, NID, Gandhinagar is known for its curriculum and wide range of courses. Established in 2004, the Gandhinagar campus of NID has gained a huge reputation and popularity among aspiring students. It organizes an interface where the prospective employers and students can meet. It is also considered as one of the best fashion institutes in Gandhinagar."
+    },
+    {
+      "name": "Symbiosis Institute of Design, Pune",
+      "description": "Symbiosis Institute of Design, SID, Pune was set up in 2002. It promotes the ethical and creative learning of the candidate. It offers various undergraduate and postgraduate courses to the aspirants. The institute offers specialization in different fields. Communication Design, Industrial Design, Fashion Design, and Fashion Communication are four forms of degrees that the SID provides. Candidates are selected on the basis of SEED (Symbiosis Entrance Exam for Design) and the minimum qualification is the completion of class 12th from any recognized board with 55% aggregate for an undergraduate course."
+    },
+    {
+      "name": "National Institute of Fashion Technology (NIFT), Hyderabad",
+      "description": "Established in the year 1986, NIFT Hyderabad is popular among the aspirants who want to enter the fashion industry. It is a platform that helps in building a concrete and successful career of an individual. The college provides different design courses and has a brilliant placement record. It has multiple undergraduate, postgraduate and certificate courses. Apart from guiding students with their knowledge in design, NIFT Hyderabad also takes up various projects from public and private sectors to inculcate and enhance student’s industry knowledge so that they become market-ready."
+    },
+    {
+      "name": "Department of Design - Indian Institute of Technology, Delhi (IIT Delhi)",
+      "description": "The Department of Design of Indian Institute of Technology, Delhi (IIT Delhi) is among one of the few IITs that offers design education. Established in the year 2018, DoD - IIT Delhi has started with offering the course of M.Des and selected candidates for postgraduate admissions only. However, due to the increased demand and popularity of the institute, UG courses in design will also be started here soon. The college offers various specialisations that are included in the curriculum keeping in mind the demand of the industry. The entrance exam of CEED is accepted for admission to the Department of Design (DoD) - IIT Delhi."
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".admin.UpdateMissingActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="New Person"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"
+        android:id="@+id/NewPerson"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update Details"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"
+        android:id="@+id/Update"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete Person"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"
+        android:id="@+id/Delete"/>
+
+
+</LinearLayout>

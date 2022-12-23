@@ -1,0 +1,36 @@
+ONLY 2 THINGS TO DO IN ANDORID API 30 AND ABOVE
+
+private void checkPermissionAllowDenied() {
+
+
+        if (SDK_INT >= Build.VERSION_CODES.R) {
+            if(!Environment.isExternalStorageManager()) {
+                try {
+                    Intent intent = new Intent(Settings.ACTION_MANAGE_APP_ALL_FILES_ACCESS_PERMISSION);
+                    intent.addCategory("android.intent.category.DEFAULT");
+                    intent.setData(Uri.parse(String.format("package:%s", getApplicationContext().getPackageName())));
+                    startActivityForResult(intent, 2296);
+                } catch (Exception e) {
+                    Intent intent = new Intent();
+                    intent.setAction(Settings.ACTION_MANAGE_ALL_FILES_ACCESS_PERMISSION);
+                    startActivityForResult(intent, 2296);
+                }
+            }
+        }
+
+
+
+protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        if (requestCode == 2296) {
+            if (SDK_INT >= Build.VERSION_CODES.R) {
+                if (Environment.isExternalStorageManager()) {
+                    Toast.makeText(this, "Allowed permission", Toast.LENGTH_SHORT).show();
+                    // perform action when allow permission success
+                } else {
+                    binding.btnWriteExternal.setVisibility(View.GONE);
+                    binding.btnReadExternal.setVisibility(View.GONE);
+                }
+            }
+        }
+    }

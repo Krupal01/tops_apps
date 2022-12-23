@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dashboard.DashboardFragment"
+    android:orientation="vertical"
+    android:background="#038787">
+
+    <include
+        android:id="@+id/toolbar3"
+        layout="@layout/toolbar" />
+
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="3">
+
+        <!-- TODO: Update blank fragment layout -->
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/Complain"
+            android:layout_width="wrap_content"
+            android:layout_height="118dp"
+            android:layout_columnWeight="1"
+            android:gravity="center"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/ic_android_black_24dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="hjdkskdsa"
+                android:layout_marginTop="90dp"
+                android:layout_gravity="center_horizontal"/>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/Status"
+            android:layout_width="wrap_content"
+            android:layout_height="118dp"
+            android:layout_columnWeight="1"
+            android:gravity="center"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/ic_android_black_24dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="hjdkskdsa"
+                android:layout_marginTop="90dp"
+                android:layout_gravity="center_horizontal"/>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/PoliceStation"
+            android:layout_width="wrap_content"
+            android:layout_height="118dp"
+            android:layout_columnWeight="1"
+            android:gravity="center"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/ic_android_black_24dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="hjdkskdsa"
+                android:layout_marginTop="90dp"
+                android:layout_gravity="center_horizontal"/>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/WantedList"
+            android:layout_width="wrap_content"
+            android:layout_height="118dp"
+            android:layout_columnWeight="1"
+            android:gravity="center"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/ic_android_black_24dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="hjdkskdsa"
+                android:layout_marginTop="90dp"
+                android:layout_gravity="center_horizontal"/>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/MissingList"
+            android:layout_width="wrap_content"
+            android:layout_height="118dp"
+            android:layout_columnWeight="1"
+            android:gravity="center"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/ic_android_black_24dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="hjdkskdsa"
+                android:layout_marginTop="90dp"
+                android:layout_gravity="center_horizontal"/>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/Help"
+            android:layout_width="wrap_content"
+            android:layout_height="118dp"
+            android:layout_columnWeight="1"
+            android:gravity="center"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/ic_android_black_24dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="hjdkskdsa"
+                android:layout_marginTop="90dp"
+                android:layout_gravity="center_horizontal"/>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+
+    </GridLayout>
+
+
+
+
+</LinearLayout>

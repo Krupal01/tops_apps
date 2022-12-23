@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.project">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="Crime Tracker"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Project"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".user.RegisterUserActivity"></activity>
+        <activity android:name=".user.WantedListActivity" />
+        <activity android:name=".user.StatusCheckActivity" />
+        <activity android:name=".user.MissingListActivity" />
+        <activity android:name=".user.ComplainActivity" />
+        <activity android:name=".user.HomeActivity" />
+        <activity android:name=".ForgotPasswordActivity2" />
+        <activity android:name=".admin.AdminLoginActivity" />
+        <activity android:name=".admin.UpdateMissingActivity" />
+        <activity android:name=".admin.UpdateWantedActivity" />
+        <activity android:name=".admin.NoticeBoardActivity" />
+        <activity android:name=".admin.UpdateStatusActivity" />
+        <activity android:name=".admin.CheckComplainActivity" />
+        <activity android:name=".admin.AdminMainActivity" />
+        <activity android:name=".admin.AdminSplashActivity" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

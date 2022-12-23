@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.ExternalStorageFragment"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <Button
+    android:id="@+id/read_Assets"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="read Assets"/>
+
+    <Button
+        android:id="@+id/Write_Assets"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="write"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/reasult_Assets"/>
+
+</LinearLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/school"
+    app:startDestination="@id/registrationSchoolFragment">
+
+    <fragment
+        android:id="@+id/loginSchoolFragment"
+        android:name="com.example.storageassignment.school.LoginSchoolFragment"
+        android:label="fragment_login_school"
+        tools:layout="@layout/fragment_login_school" >
+        <action
+            android:id="@+id/action_loginSchoolFragment_to_homeFragment3"
+            app:destination="@id/homeFragment3" />
+    </fragment>
+    <fragment
+        android:id="@+id/registrationSchoolFragment"
+        android:name="com.example.storageassignment.school.RegistrationSchoolFragment"
+        android:label="fragment_registration_school"
+        tools:layout="@layout/fragment_registration_school" >
+        <action
+            android:id="@+id/action_registrationSchoolFragment_to_loginSchoolFragment"
+            app:destination="@id/loginSchoolFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/schoolGalleryFragment"
+        android:name="com.example.storageassignment.school.SchoolGalleryFragment"
+        android:label="fragment_school_gallery"
+        tools:layout="@layout/fragment_school_gallery" >
+        <action
+            android:id="@+id/action_schoolGalleryFragment_to_newImageFragment"
+            app:destination="@id/newImageFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/schoolInformationFragment"
+        android:name="com.example.storageassignment.school.SchoolInformationFragment"
+        android:label="fragment_school_information"
+        tools:layout="@layout/fragment_school_information" />
+    <fragment
+        android:id="@+id/aboutUsFragment"
+        android:name="com.example.storageassignment.school.AboutUsFragment"
+        android:label="fragment_about_us"
+        tools:layout="@layout/fragment_about_us" />
+    <fragment
+        android:id="@+id/facultyInformationFragment"
+        android:name="com.example.storageassignment.school.FacultyInformationFragment"
+        android:label="fragment_faculty_information"
+        tools:layout="@layout/fragment_faculty_information" />
+    <fragment
+        android:id="@+id/newImageFragment"
+        android:name="com.example.storageassignment.school.newImageFragment"
+        android:label="fragment_new_image"
+        tools:layout="@layout/fragment_new_image" />
+    <fragment
+        android:id="@+id/homeFragment3"
+        android:name="com.example.storageassignment.school.homeFragment"
+        android:label="fragment_home2"
+        tools:layout="@layout/fragment_home2" >
+        <action
+            android:id="@+id/action_homeFragment3_to_schoolInformationFragment"
+            app:destination="@id/schoolInformationFragment" />
+        <action
+            android:id="@+id/action_homeFragment3_to_aboutUsFragment"
+            app:destination="@id/aboutUsFragment" />
+        <action
+            android:id="@+id/action_homeFragment3_to_schoolGalleryFragment"
+            app:destination="@id/schoolGalleryFragment" />
+        <action
+            android:id="@+id/action_homeFragment3_to_facultyInformationFragment"
+            app:destination="@id/facultyInformationFragment" />
+    </fragment>
+</navigation>

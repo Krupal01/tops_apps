@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/careerListFragment">
+
+    <fragment
+        android:id="@+id/careerListFragment"
+        android:name="com.example.careercoach.different_careers.CareerListFragment"
+        android:label="fragment_career_list"
+        tools:layout="@layout/fragment_career_list" >
+        <action
+            android:id="@+id/action_careerListFragment_to_healthcare"
+            app:destination="@id/healthcare" />
+        <action
+            android:id="@+id/action_careerListFragment_to_marketing"
+            app:destination="@id/marketing" />
+        <action
+            android:id="@+id/action_careerListFragment_to_technology"
+            app:destination="@id/technology" />
+        <action
+            android:id="@+id/action_careerListFragment_to_finance"
+            app:destination="@id/finance" />
+        <action
+            android:id="@+id/action_careerListFragment_to_accounting"
+            app:destination="@id/accounting" />
+        <action
+            android:id="@+id/action_careerListFragment_to_humanResource"
+            app:destination="@id/humanResource" />
+        <action
+            android:id="@+id/action_careerListFragment_to_ngo"
+            app:destination="@id/ngo" />
+    </fragment>
+    <fragment
+        android:id="@+id/finance"
+        android:name="com.example.careercoach.different_careers.careers.Finance"
+        android:label="fragment_finance"
+        tools:layout="@layout/fragment_finance" />
+    <fragment
+        android:id="@+id/technology"
+        android:name="com.example.careercoach.different_careers.careers.Technology"
+        android:label="fragment_technology"
+        tools:layout="@layout/fragment_technology" />
+    <fragment
+        android:id="@+id/marketing"
+        android:name="com.example.careercoach.different_careers.careers.Marketing"
+        android:label="fragment_marketing"
+        tools:layout="@layout/fragment_marketing" />
+    <fragment
+        android:id="@+id/humanResource"
+        android:name="com.example.careercoach.different_careers.careers.HumanResource"
+        android:label="fragment_human_resource"
+        tools:layout="@layout/fragment_human_resource" />
+    <fragment
+        android:id="@+id/accounting"
+        android:name="com.example.careercoach.different_careers.careers.Accounting"
+        android:label="fragment_accounting"
+        tools:layout="@layout/fragment_accounting" />
+    <fragment
+        android:id="@+id/ngo"
+        android:name="com.example.careercoach.different_careers.careers.Ngo"
+        android:label="fragment_ngo"
+        tools:layout="@layout/fragment_ngo" />
+    <fragment
+        android:id="@+id/healthcare"
+        android:name="com.example.careercoach.different_careers.careers.Healthcare"
+        android:label="fragment_healthcare"
+        tools:layout="@layout/fragment_healthcare" />
+</navigation>

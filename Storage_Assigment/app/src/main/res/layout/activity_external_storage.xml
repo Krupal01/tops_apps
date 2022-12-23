@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.ExternalStorageActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_External_writeActivity"/>
+    <Button
+        android:id="@+id/write_externalActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Write External"/>
+
+    <Button
+        android:id="@+id/read_externalActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="read_external"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_External_readActivity"/>
+
+</LinearLayout>

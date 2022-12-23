@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/college_nav_graph"
+    app:startDestination="@id/differentCollegesFragment">
+
+    <fragment
+        android:id="@+id/differentCollegesFragment"
+        android:name="com.example.careercoach.different_colleges.DifferentCollegesFragment"
+        android:label="fragment_different_colleges"
+        tools:layout="@layout/fragment_different_colleges" >
+        <action
+            android:id="@+id/action_differentCollegesFragment_to_managementCollege"
+            app:destination="@id/managementCollege" />
+        <action
+            android:id="@+id/action_differentCollegesFragment_to_engineeringCollege"
+            app:destination="@id/engineeringCollege" />
+        <action
+            android:id="@+id/action_differentCollegesFragment_to_medicalCollege2"
+            app:destination="@id/medicalCollege2" />
+        <action
+            android:id="@+id/action_differentCollegesFragment_to_commerceColleges"
+            app:destination="@id/commerceColleges" />
+        <action
+            android:id="@+id/action_differentCollegesFragment_to_artAndDesignColleges"
+            app:destination="@id/artAndDesignColleges" />
+        <action
+            android:id="@+id/action_differentCollegesFragment_to_lawColleges"
+            app:destination="@id/lawColleges" />
+        <action
+            android:id="@+id/action_differentCollegesFragment_to_armyColleges"
+            app:destination="@id/armyColleges" />
+        <action
+            android:id="@+id/action_differentCollegesFragment_to_movieColleges"
+            app:destination="@id/movieColleges" />
+    </fragment>
+    <fragment
+        android:id="@+id/managementCollege"
+        android:name="com.example.careercoach.different_colleges.colleges.ManagementCollege"
+        android:label="fragment_management_college"
+        tools:layout="@layout/fragment_management_college" />
+    <fragment
+        android:id="@+id/engineeringCollege"
+        android:name="com.example.careercoach.different_colleges.colleges.EngineeringCollege"
+        android:label="fragment_engineering_college"
+        tools:layout="@layout/fragment_engineering_college" />
+    <fragment
+        android:id="@+id/medicalCollege2"
+        android:name="com.example.careercoach.different_colleges.colleges.MedicalCollege"
+        android:label="fragment_medical_college"
+        tools:layout="@layout/fragment_medical_college" />
+    <fragment
+        android:id="@+id/artAndDesignColleges"
+        android:name="com.example.careercoach.different_colleges.colleges.ArtAndDesignColleges"
+        android:label="fragment_art_and_design_colleges"
+        tools:layout="@layout/fragment_art_and_design_colleges" />
+    <fragment
+        android:id="@+id/commerceColleges"
+        android:name="com.example.careercoach.different_colleges.colleges.CommerceColleges"
+        android:label="fragment_commerce_colleges"
+        tools:layout="@layout/fragment_commerce_colleges" />
+    <fragment
+        android:id="@+id/lawColleges"
+        android:name="com.example.careercoach.different_colleges.colleges.LawColleges"
+        android:label="fragment_law_colleges"
+        tools:layout="@layout/fragment_law_colleges" />
+    <fragment
+        android:id="@+id/armyColleges"
+        android:name="com.example.careercoach.different_colleges.colleges.ArmyColleges"
+        android:label="fragment_army_colleges"
+        tools:layout="@layout/fragment_army_colleges" />
+    <fragment
+        android:id="@+id/movieColleges"
+        android:name="com.example.careercoach.different_colleges.colleges.MovieColleges"
+        android:label="fragment_movie_colleges"
+        tools:layout="@layout/fragment_movie_colleges" />
+</navigation>

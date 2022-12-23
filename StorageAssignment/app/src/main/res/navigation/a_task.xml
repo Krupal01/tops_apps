@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/a_task"
+    app:startDestination="@id/ATaskListFragment">
+
+    <fragment
+        android:id="@+id/ATaskListFragment"
+        android:name="com.example.storageassignment.taska.ATaskListFragment"
+        android:label="fragment_a_task_list"
+        tools:layout="@layout/fragment_a_task_list" >
+        <action
+            android:id="@+id/action_ATaskListFragment_to_ANewTaskFragment"
+            app:destination="@id/ANewTaskFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/ANewTaskFragment"
+        android:name="com.example.storageassignment.taska.ANewTaskFragment"
+        android:label="fragment_a_new_task"
+        tools:layout="@layout/fragment_a_new_task" />
+</navigation>
